@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+.header {
+    color: white;
+    position: fixed;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+
+
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    text-decoration: none;
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    span {
+        color: wheat;
+    }
+
+}
+
+
+
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em;
+
+}
+
+.left,
+.right {
+    flex-basis: 50%;
+
+}
+
+.right h1 {
+    font-size: 50px;
+    color: white;
+
+    span {
+        color: wheat;
+    }
+}
+
+.right {
+    max-width: 450px;
+    padding-right: 50px;
+
+
+
+
+}
+
+.right p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+
+.button {
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.45s ease;
+}
+
+button:hover {
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.left img {
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.footer p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    clear: both;
+    padding: 1em;
+    background-color: transparent;
+
+
+}
